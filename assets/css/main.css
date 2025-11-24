@@ -144,11 +144,11 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: rgba(4, 11, 20, 0.9);
   position: fixed;
   top: 0;
-  left: 0;
-  bottom: 0;
+  left: 6vh;
+  bottom: 22vh;
   padding: 0 15px;
   width: 400px;
   transition: all ease-in-out 0.3s;
@@ -206,16 +206,9 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-
-  .header~main,
-  .header~#footer {
-    margin-left: 300px;
-  }
-}
-
-@media (max-width: 1199px) {
-  .header {
-    left: -100%;
+  .main > section:not(#hero),
+  .footer {
+    margin-left: 400px;
   }
 }
 
