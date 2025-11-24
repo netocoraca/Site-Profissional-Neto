@@ -148,10 +148,9 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 30vh;
+  bottom: 0;
   padding: 0 15px;
-  margin-left: 50px;
-  width: 500px;
+  width: 400px;
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
@@ -161,8 +160,8 @@ h6 {
 .header .profile-img img {
   margin: 15px auto;
   display: block;
-  width: 400px;
-  border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  width: 300px;
+  border: 8px solid color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
 .header .logo {
@@ -553,7 +552,8 @@ section,
   justify-content: center;
 }
 
-.hero img {
+
+.hero video {
   position: absolute;
   inset: 0;
   display: block;
@@ -563,13 +563,6 @@ section,
   z-index: 1;
 }
 
-.hero:before {
-  content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
 
 .hero .container {
   position: relative;
