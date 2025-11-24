@@ -205,6 +205,18 @@ h6 {
   background: var(--accent-color);
 }
 
+.social-links .artstation-svg {
+  width: 18px; /* Ajuste conforme necessário para corresponder aos outros ícones */
+  height: 18px; /* Ajuste conforme necessário para corresponder aos outros ícones */
+  vertical-align: middle; /* Ajuda a alinhar o SVG com os outros ícones */
+}
+
+.social-links .github-svg {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle; /* Ajuda a alinhar o SVG com os outros ícones */
+}
+
 @media (min-width: 1200px) {
   .main > section:not(#hero),
   .footer {
