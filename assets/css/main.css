@@ -145,7 +145,10 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: rgba(16, 11, 11, 0.479);
+  position: fixed;
   top: 0;
+  left: 6vh;
+  bottom: 22vh;
   padding: 0 15px;
   width: 400px;
   transition: all ease-in-out 0.3s;
