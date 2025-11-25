@@ -145,7 +145,6 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: rgba(16, 11, 11, 0.479);
-  position: fixed;
   top: 0;
   padding: 0 15px;
   width: 400px;
