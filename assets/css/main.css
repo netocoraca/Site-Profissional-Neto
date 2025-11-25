@@ -218,11 +218,12 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-  .main > section:not(#hero),
+  .main > section:not(#hero):not(#portfolio),
   .footer {
     margin-left: 400px;
   }
 }
+
 
 .header.header-show {
   left: 0;
@@ -267,6 +268,7 @@ h6 {
   list-style: none;
   padding: 0 0 20px 0;
   margin: 0;
+   text-align: center;
 }
 
 .navmenu a,
@@ -281,6 +283,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   width: 100%;
+  justify-content: center !important;
 }
 
 .navmenu a .navicon,
