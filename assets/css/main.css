@@ -224,6 +224,24 @@ h6 {
   }
 }
 
+@media (max-width: 1199px) {
+  .header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px 15px;
+    left: 0;
+    bottom: auto;
+    border-right: none;
+  }
+
+  .main > section:not(#hero),
+  .footer {
+    padding-left: 0;
+  }
+}
+
+
 
 .header.header-show {
   left: 0;
